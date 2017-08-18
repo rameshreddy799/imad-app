@@ -21,7 +21,7 @@ var articles={
                 this is the content for my  first article .this is the content for my  first article .this is the content for my  first article .this is the content for my  first article .this is the content for my  first article .this is the content for my  first article .this is the content for my  first article .this is the content for my  first article .this is the content for my  first article .this is the content for my  first article .this is the content for my  first article .
                 </p>`
 },
- 'article-two': {
+  'article-two': {
     title:'article two  rameshreddy',
     heading:'article two',
     date:'15 aug 2017',
@@ -30,7 +30,7 @@ var articles={
                     this the content for article two
                 </p>`
 },
-' article-three': {
+  'article-three': {
      title:'article three  rameshreddy',
     heading:'article three',
     date:'15 aug 2017',
