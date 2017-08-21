@@ -38,7 +38,7 @@ submit.onclick=function(){
     var name=nameInput.value;
               
     request.open('GET' ,'http://rameshreddy799.imad.hasura-app.io/sunmit-name'+name,true);
-    request.send(null);
+    request.send(name);
    
    
         
