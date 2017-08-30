@@ -72,7 +72,7 @@ var htmlTemplate=`<html>
                 ${heading}
             </h3>
             <div>
-                ${date}
+                ${date.tDateoString()}
             </div>
             <div>
                 ${content}
