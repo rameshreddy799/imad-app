@@ -13,41 +13,6 @@ var config={
 var app = express();
 app.use(morgan('combined'));
 
-var articles={
-  'article-one': {
-    title:'article one  rameshreddy',
-    heading:'article one',
-    date:'15 aug 2017',
-    content: `     
-                   <p> 
-                     this is the content for my  first article .this is the content for my  first article .this is the content for my  first article .this is the content for my  first article .this is the content for my  first article .this is the content for my  first article .this is the content for my  first article .this is the content for my  first article .this is the content for my  first article .this is the content for my  first article .this is the content for my  first article .
-                </p>
-                 <p> 
-                this is the content for my  first article .this is the content for my  first article .this is the content for my  first article .this is the content for my  first article .this is the content for my  first article .this is the content for my  first article .this is the content for my  first article .this is the content for my  first article .this is the content for my  first article .this is the content for my  first article .this is the content for my  first article .
-                </p>
-                 <p> 
-                this is the content for my  first article .this is the content for my  first article .this is the content for my  first article .this is the content for my  first article .this is the content for my  first article .this is the content for my  first article .this is the content for my  first article .this is the content for my  first article .this is the content for my  first article .this is the content for my  first article .this is the content for my  first article .
-                </p>`
-},
-  'article-two': {
-    title:'article two  rameshreddy',
-    heading:'article two',
-    date:'15 aug 2017',
-    content: `     
-                   <p> 
-                    this the content for article two
-                </p>`
-},
-  'article-three': {
-     title:'article three  rameshreddy',
-    heading:'article three',
-    date:'15 aug 2017',
-    content: `     
-                   <p> 
-                    this is the content for artice three
-                </p>`
-},
-  };
 function createTemplate(data){
     var title=data.title;
     var date=data.date;
