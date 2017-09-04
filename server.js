@@ -54,8 +54,8 @@ app.get('/', function (req, res) {
 });
 function hash(input, salt){
     //how  do we create hash
-    var hashed=crypto.pbkdf25ync(input,salt,1000,512,'sha512');
-    return hashed.toString('hex');
+    var hashed=crypto.pbkdf2Sync(input,salt,1000,512,'sha512');
+    return ['pbkdf2',"10000",salt,hashed.toString('hex')].join("$");
 }
 app.get('/hash/:input',function(req,res){
     var hashedString=hash(req.params.input,'this-is-some-random-string');
